@@ -1,7 +1,7 @@
 package PraktikumDaspro.jobsheet5;
 import java.util.Scanner;
 
-public class switchCetakKRS26 {
+public class ifElseCetakKRS26 {
     public static void main(String[] args) {
         Scanner sc = new Scanner (System.in);
         
@@ -9,36 +9,26 @@ public class switchCetakKRS26 {
         System.out.print("Masukkan semester saat ini: ");
         int semester = sc.nextInt();
 
-        switch (semester) {
-            case 1:
+        if (semester == 1) {
                 System.out.println("KRS Semester 1 ditampilkan");
-                break;
-            case 2:
+        } else if (semester == 2) {
                 System.out.println("KRS Semester 2 ditampilkan");
-                break;
-            case 3:
+        } else if (semester == 3) {
                 System.out.println("KRS Semester 3 ditampilkan");
-                break;
-            case 4:
+        } else if (semester == 4) {
                 System.out.println("KRS Semester 4 ditampilkan");
-                break;
-            case 5:
+        } else if (semester == 5) {
                 System.out.println("KRS Semester 5 ditampilkan");
-                break;
-            case 6:
+        } else if (semester == 6) {
                 System.out.println("KRS Semester 6 ditampilkan");
-                break;
-            case 7:
+        } else if ( semester == 7) {
                 System.out.println("KRS Semester y ditampilkan");
-                break;
-            case 8:
+        } else if (semester == 8) {
                 System.out.println("KRS Semester 8 ditampilkan");
-                break;
-            default:
-                System.out.println("Semester tidak valid");
-        
+        } else {
+                System.out.println("Semester yidal valid");
+        } 
+        sc.close();
         }
-    
     }
-    
-}
+
