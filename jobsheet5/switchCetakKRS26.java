@@ -1,5 +1,5 @@
 package PraktikumDaspro.jobsheet5;
-import java.util.Scanner;
+import java.util.Scanner; 
 
 public class switchCetakKRS26 {
     public static void main(String[] args) {
