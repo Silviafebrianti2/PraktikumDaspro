@@ -4,14 +4,14 @@ import java.util.Scanner;
 public class switchCetakKRS26 {
     public static void main(String[] args) {
         Scanner sc = new Scanner (System.in);
-        
+
         System.out.println ("--- Cetak KRS SIAKAD ---");
-        System.out.print("Masukkan semester saat ini: ");
+        System.out.print("Masukkan semester saat ini:  ");
         int semester = sc.nextInt();
 
         switch (semester) {
             case 1:
-                System.out.println("KRS Semester 1 ditampilkan");
+                System.out.println("KRS Semester 1 ditampilkan ");
                 break;
             case 2:
                 System.out.println("KRS Semester 2 ditampilkan");
